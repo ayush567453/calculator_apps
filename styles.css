@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .main-container {
+    border: 2px solid #ccc;
+    background-color: rgb(94,95,97);
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .container {
+    /* display: grid; */
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+  .row{
+    padding-top: 10px;
+  }
+  .controls{
+    padding: 10px;
+  }
+  input{
+    background-color: rgb(205,222,206);
+    height: 35px;
+  }
+  button{
+    width: 45px;
+    height: 25px;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
